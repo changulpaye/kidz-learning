@@ -1,0 +1,55 @@
+.listStyle {
+    list-style: none;
+    list-style-type: none;
+}
+
+.list {
+    margin: 10px;
+}
+.list label {
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.list input {
+    font-size: 30px;
+    border: #6f19a8;
+    position:relative;
+	
+	font-size: 2.5em;
+	
+	background: linear-gradient(21deg, #10abff, #1beabd);
+	
+	padding: 8px;
+    color:#6f19a8;
+	text-align: center;
+	display: inline-block;
+	
+	border-radius: 9999em;
+
+	
+}
+
+.listStyle li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px 20px;
+    margin: 0px;
+    color:#6f19a8;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.listStyle h1 {
+    border: 1px solid #00000026;
+    padding: 5px 20px;
+    border-radius: 8px;
+    /* margin: 8px; */
+    text-align: center;
+    min-width: 40px;
+    box-shadow: #00000026 1.95px 1.95px 2.6px;
+}
