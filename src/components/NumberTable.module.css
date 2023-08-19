@@ -5,6 +5,7 @@
 
 .list {
     margin: 10px;
+    justify-content: center;
 }
 .list label {
     display: block;
@@ -20,16 +21,15 @@
     position:relative;
 	
 	font-size: 2.5em;
-	
+	max-width: 100%;
 	background: linear-gradient(21deg, #10abff, #1beabd);
 	
 	padding: 8px;
     color:#6f19a8;
 	text-align: center;
 	display: inline-block;
-	
-	border-radius: 9999em;
-
+	border-radius: 8px;
+    width: 95%;
 	
 }
 
