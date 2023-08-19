@@ -8,7 +8,7 @@ const NumberTable = () => {
     setEnteredNum(event.target.value);
   };
   return (
-    <div>
+    <div className="container" >
       <div className={classes.list}>
        
         <input onChange={handleInputChange} value={enteredNum} type="number" placeholder="Enter Number" />
