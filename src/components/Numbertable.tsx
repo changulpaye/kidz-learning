@@ -1,22 +1,17 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import classes from "./NumberTable.module.css";
 
 const NumberTable = () => {
-  const [enteredNum, setEnteredNum] = useState("");
-  const [table, setTable] = useState([]);
-  const handleInputChange = (event) => {
+  const [enteredNum, setEnteredNum] = useState<number>();
+  const handleInputChange = (event:any) => {
     setEnteredNum(event.target.value);
   };
   return (
     <div className="container" >
       <div className={classes.list}>
-       
         <input onChange={handleInputChange} value={enteredNum} type="number" placeholder="Enter Number" />
       </div>
       <ul className={classes.listStyle}>
-        {/* { table.map((row, i) => (
-          <li key={i}> {row} </li>
-        ))} */}
         {enteredNum &&
           Array(10)
             .fill({})
